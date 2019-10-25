@@ -42,6 +42,15 @@ header("Location: login.php");
             <form action="" method="post">
                 <h1>Enquiry Form</h1>
                <textarea id = "description" placeholder="*Enter your Enquiry" name="description" rows="15" required></textarea>
+		<input type="text" name="enquiry" placeholder="enter your enquiry*" />
+                <input type="checkbox" name="" id="check" checked />
+                <p style="color: white;">for new details uncheck the box</p>
+                <input type="tel" name="contact_no." placeholder="Contact no*" />
+                 <input type="text" name="address" placeholder="Address*"/>
+                <input type="text" name="city" placeholder="City*" />
+                <input type="text" name="state" placeholder="State*" />
+                <input type="text" name="country" placeholder="Country" />   
+                <input type="text" name="pincode" placeholder="Pincode*" />
                 <button type="submit" name="submit">Submit</button>
             </form>
         </div>
